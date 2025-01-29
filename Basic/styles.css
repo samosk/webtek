@@ -12,12 +12,15 @@ section {
 }
 
 h1 {
-	color: white;
-	font-weight: 100;
+	color: black;
 	margin: 0;
 	padding: 0;
 	padding-top: 1vh;
 	font-size: 20pt;
+}
+
+.titel {
+	color: white;
 }
 
 h2 {
