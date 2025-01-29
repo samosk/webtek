@@ -1,0 +1,100 @@
+body {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: "Playfair Display SC", serif;
+}
+
+section {
+	display: block;
+}
+
+h1 {
+	color: white;
+	font-weight: 100;
+	margin: 0;
+	padding: 0;
+	padding-top: 1vh;
+	font-size: 20pt;
+}
+
+h2 {
+	color: black;
+	margin: 0;
+	padding: 0;
+	padding-top: 1vh;
+	font-size: 16pt;
+}
+
+h3 {
+	color: black;
+	font-weight: 100;
+	margin: 0;
+	padding: 0;
+	padding-top: 1vh;
+	font-size: 16pt;
+}
+
+p {
+	color: black;
+	font-weight: 100;
+	margin: 0;
+	padding: 0;
+	font-size: 12pt;
+	font-style: italic;
+}
+
+.price {
+	font-weight: bold;
+}
+
+button {
+	height: 6vh;
+	width: fit-content;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.banner-top {
+	background-color: #0072BB;
+	width: 100vw;
+	height: 16vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-top {
+	width: 80vw;
+	display: flex;
+	justify-content: space-evenly;
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 2;
+}
+
+.item {
+	margin-left: 15vw;
+	margin-right: 15vw;
+	border-top: 2px solid black;
+}
+
+/* Video Section */
+.video {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+.video video {
+	width: 100%;
+	height: auto;
+	display: block;
+}

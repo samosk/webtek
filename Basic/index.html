@@ -1,14 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<meta charset='utf-8'>
-	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
-	<title>Page Title</title>
-	<meta name='viewport' content='width=device-width, initial-scale=1'>
-	<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-	<script src='main.js'></script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Ronyas Restaurang</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="styles.css">
+	<script src="main.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-	
+	<div class="banner-top">
+		<a href="#"><h1>Ronyas</h1> <h1>Restaurang</h1></a>
+	</div>
+
+	<div class="video">
+		<div class="nav-top">
+			<a href="#meny">Meny</a>
+			<a href="#öppettider">Öppettider</a>
+			<a href="#dagens">Dagens</a>
+			<a href="#hitta-hit">Hitta hit</a>
+			<a href="#om-oss">Om oss</a>
+		</div>
+		<video autoplay muted loop>
+			<source src="Public/pizza-video.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+
+	<section id="meny">
+		<h2>Pizza</h2>
+		<div class="item">
+			<h3>Margherita</h3>
+			<p>Tomatsås och ost</p>
+			<p class="price">114 kr</p>
+		</div>
+		<div class="item">
+			<h3>Vesuvio</h3>
+			<p>Tomatsås, ost och skinka</p>
+			<p class="price">119 kr</p>
+		</div>
+		<div class="item">
+			<h3>Kebabpizza</h3>
+			<p>Tomatsås, ost, kebab, lök, tomater, pepperoni och orientsås</p>
+			<p class="price">130 kr</p>
+		</div>
+	</section>
 </body>
+
 </html>
