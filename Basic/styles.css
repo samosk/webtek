@@ -9,6 +9,7 @@ body {
 
 section {
 	display: block;
+	width: 80vw;
 }
 
 h1 {
@@ -17,10 +18,12 @@ h1 {
 	padding: 0;
 	padding-top: 1vh;
 	font-size: 20pt;
+	margin-left: 20vw;
 }
 
 .titel {
 	color: white;
+	margin-left: 0;
 }
 
 h2 {
@@ -29,6 +32,7 @@ h2 {
 	padding: 0;
 	padding-top: 1vh;
 	font-size: 16pt;
+	margin-left: 20vw;
 }
 
 h3 {
@@ -38,6 +42,11 @@ h3 {
 	padding: 0;
 	padding-top: 1vh;
 	font-size: 16pt;
+	margin-left: 20vw;
+}
+
+.item h3 {
+	margin-left: 0;
 }
 
 p {
@@ -53,6 +62,12 @@ p {
 	font-weight: bold;
 }
 
+.more {
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	font-style: normal;
+}
+
 button {
 	height: 6vh;
 	width: fit-content;
@@ -61,6 +76,13 @@ button {
 a {
 	text-decoration: none;
 	color: white;
+}
+
+img {
+	margin: 0;
+	padding: 0;
+	width: 60vw;
+	margin-left: 20vw;
 }
 
 .banner-top {
@@ -84,9 +106,16 @@ a {
 }
 
 .item {
-	margin-left: 15vw;
-	margin-right: 15vw;
+	margin-left: 20vw;
+	/* margin-right: 15vw; */
 	border-top: 2px solid black;
+}
+
+.showmore {
+	margin-left: 20vw;
+	/* margin-right: 15vw; */
+	border-top: 2px solid black;
+	cursor: pointer;
 }
 
 /* Video Section */
@@ -100,4 +129,9 @@ a {
 	width: 100%;
 	height: auto;
 	display: block;
+}
+
+.blue {
+	background-color: #0072BB;
+	margin-left: 20vw;
 }
