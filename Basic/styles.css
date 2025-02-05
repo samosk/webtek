@@ -67,6 +67,13 @@ p {
 	padding-bottom: 1vh;
 }
 
+nav {
+	position: sticky;
+	top: 0;
+	background-color: transparent;
+}
+
+
 .price {
 	font-weight: bold;
 }
@@ -107,15 +114,48 @@ img {
 	padding-top: 1vh;
 }
 
+.banner-bot {
+	background-color: #0072BB;
+	width: 100vw;
+	height: 24vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
+
+.banner-bot {
+	margin: 0;
+	padding: 0;
+}
+
+.footer-section {
+	margin: 0;
+	padding: 0;
+	width: 20vw;
+}
+
+.footer {
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-size: 12pt;
+}
+
 .nav-top {
 	width: 80vw;
 	display: flex;
 	justify-content: space-evenly;
 	position: absolute;
-	top: 10px;
+	top: 1vh;
 	left: 50%;
 	transform: translateX(-50%);
-	z-index: 2;
+	z-index: 1000;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding-right: 10vw;
+	padding-left: 10vw;
 }
 
 .item {
