@@ -94,6 +94,10 @@ a {
 	color: white;
 }
 
+li {
+	list-style-type: none;
+}
+
 img {
 	margin: 0;
 	padding: 0;
