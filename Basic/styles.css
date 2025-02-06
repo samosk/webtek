@@ -198,3 +198,9 @@ img {
 .blue p {
 	color: white;
 }
+
+.github-logo {
+	margin: 0;
+	padding: 0;
+	width: 5vw;
+}
