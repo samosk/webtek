@@ -1,3 +1,8 @@
+* {
+	box-sizing: border-box;
+}
+
+
 html {
 	scrollbar-color: rgb(175, 175, 175) lightgray;
 }
@@ -10,12 +15,10 @@ body {
 	text-align: center;
 	font-family: "Playfair Display SC", serif;
 	background-color: #0072BB;
-	overflow-x: hidden;
 }
 
 section {
 	display: block;
-	width: 80vw;
 	background-color: white;
 	padding-right: 20vw;
 }
@@ -112,7 +115,6 @@ img {
 
 .banner-top {
 	background-color: #0072BB;
-	width: 100vw;
 	height: 16vh;
 	display: flex;
 	justify-content: center;
@@ -125,7 +127,6 @@ img {
 
 .banner-bot {
 	background-color: #0072BB;
-	width: 100vw;
 	height: 24vh;
 	display: flex;
 	justify-content: center;
@@ -218,4 +219,10 @@ table,td,th {
 .form {
 	width: 100vw;
 	background-color: white;
+}
+
+@media only screen and (max-width: 700px) {
+	.nav-top {
+		visibility: collapse;
+	}
 }
