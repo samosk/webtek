@@ -102,6 +102,23 @@ a {
 	color: white;
 }
 
+ul {
+	padding: 0;
+	margin: 0;
+	width: 80vw;
+	display: flex;
+	justify-content: space-evenly;
+	position: absolute;
+	top: 1vh;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1000;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding-right: 10vw;
+	padding-left: 10vw;
+}
+
 li {
 	list-style-type: none;
 }
@@ -151,21 +168,6 @@ img {
 	padding: 0;
 	color: white;
 	font-size: 12pt;
-}
-
-.nav-top {
-	width: 80vw;
-	display: flex;
-	justify-content: space-evenly;
-	position: absolute;
-	top: 1vh;
-	left: 50%;
-	transform: translateX(-50%);
-	z-index: 1000;
-	color: white;
-	background-color: rgba(0, 0, 0, 0.5);
-	padding-right: 10vw;
-	padding-left: 10vw;
 }
 
 .item {
