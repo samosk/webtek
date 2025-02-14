@@ -123,6 +123,10 @@ li {
 	list-style-type: none;
 }
 
+li:hover {
+	text-decoration: underline;
+}
+
 img {
 	margin: 0;
 	padding: 0;
