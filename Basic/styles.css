@@ -46,8 +46,13 @@ h2 {
 	margin-left: 20vw;
 }
 
-.meny h2 {
+.meny{
+	font-size: 20pt;
 	padding-top: 5vh;
+}
+
+.days {
+	font-weight: 100;
 }
 
 h3 {
